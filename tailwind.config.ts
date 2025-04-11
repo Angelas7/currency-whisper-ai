@@ -20,6 +20,14 @@ export default {
 		},
 		extend: {
 			colors: {
+				// Custom color palette
+				mist: "#F2EFF1",
+				blush: "#DFC9CE",
+				salmon: "#8EA58C",
+				sage: "#AAB5AA",
+				evergreen: "#1E4C01",
+				
+				// Original system colors
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
