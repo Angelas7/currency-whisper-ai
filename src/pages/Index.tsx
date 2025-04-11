@@ -7,7 +7,7 @@ const Index = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-b from-mist to-blush">
+    <div className="min-h-screen flex flex-col bg-gradient-to-b from-mist via-pinkAccent to-blush">
       <header className="py-6 px-4 md:px-6 bg-white shadow-sm">
         <div className="container mx-auto">
           <div className="flex justify-between items-center">
@@ -26,7 +26,7 @@ const Index = () => {
 
       <main className="flex-1 container mx-auto px-4 py-8 md:py-12">
         <div className="max-w-3xl mx-auto">
-          <div className="bg-white rounded-xl shadow-lg p-6 md:p-8">
+          <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 border-l-4 border-pinkAccent">
             <h2 className="text-xl md:text-2xl font-semibold text-evergreen mb-6">
               Ask me to convert any currency
             </h2>

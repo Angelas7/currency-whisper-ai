@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -26,6 +25,8 @@ export default {
 				salmon: "#8EA58C",
 				sage: "#AAB5AA",
 				evergreen: "#1E4C01",
+				pinkAccent: "#FFDEE2",
+				pinkHighlight: "#D946EF",
 				
 				// Original system colors
 				border: 'hsl(var(--border))',
