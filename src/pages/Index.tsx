@@ -10,8 +10,17 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-gradient-to-b from-blue-50 to-teal-50">
       <header className="py-6 px-4 md:px-6 bg-white shadow-sm">
         <div className="container mx-auto">
-          <h1 className="text-2xl md:text-3xl font-bold text-blue-800">Currency Whisper AI</h1>
-          <p className="text-gray-600 mt-1">Your intelligent currency conversion assistant</p>
+          <div className="flex justify-between items-center">
+            <div>
+              <h1 className="text-2xl md:text-3xl font-bold text-blue-800">Currency Whisper AI</h1>
+              <p className="text-gray-600 mt-1">Your intelligent currency conversion assistant</p>
+            </div>
+            <div className="text-right text-sm text-gray-500">
+              <p>Reg: 12312039</p>
+              <p>Reg: 12321021</p>
+              <p>Reg: 12317664</p>
+            </div>
+          </div>
         </div>
       </header>
 
