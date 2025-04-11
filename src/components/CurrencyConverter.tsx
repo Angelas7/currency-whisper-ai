@@ -123,12 +123,12 @@ function extractCurrencyInfo(query: string) {
     "usd": "USD", "dollar": "USD", "dollars": "USD", "$": "USD",
     "eur": "EUR", "euro": "EUR", "euros": "EUR", "€": "EUR",
     "gbp": "GBP", "pound": "GBP", "pounds": "GBP", "£": "GBP",
-    "jpy": "JPY", "yen": "JPY", "¥": "JPY",
+    "jpy": "JPY", "yen": "JPY", "¥jpy": "JPY",
     "inr": "INR", "rupee": "INR", "rupees": "INR", "rs": "INR", "₹": "INR",
     "cad": "CAD", "canadian dollar": "CAD", "c$": "CAD",
     "aud": "AUD", "australian dollar": "AUD", "a$": "AUD",
     "chf": "CHF", "franc": "CHF", "francs": "CHF",
-    "cny": "CNY", "yuan": "CNY", "rmb": "CNY", "¥": "CNY",
+    "cny": "CNY", "yuan": "CNY", "rmb": "CNY", "¥cny": "CNY",
   };
 
   // Normalize query to lowercase
@@ -229,7 +229,7 @@ function formatCurrencyResult(
     CAD: "C$",
     AUD: "A$",
     CHF: "CHF",
-    CNY: "¥"
+    CNY: "¥CNY"
   };
 
   // Format the amount with thousand separators
